@@ -1,2 +1,6 @@
 # DeepMetagenome
-A easy-to-use python package for mining natural diversity of any specific protein family from metagenomes
+##Description
+A deep learning package for mining specific proteins from metaproteomes/metagenomes
+##Contact
+Xiaofang Li, xfli@sjziam.ac.cn; xiaofang_lee@163.com
+
