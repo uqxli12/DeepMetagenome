@@ -1,10 +1,11 @@
 # DeepMetaProteome
 A deep learning package for mining specific proteins from metaproteomes/metagenomes
 # how to use: Preparation
-1. download the package
-2. unzip the package to a desired work directory
+1. download the package components
+2. the package to a desired work directory
 3. preparation of the platform: Anaconda, TensorFlow 2.0, Python 3.7, and all dependencies for deep learning
 4. preparation of the binary training dataset
+5. the trained models for MTs and HMT are also included and ready for reuse
 # the package
 the package contains all modules for parsing, merging proteome datasets, sequence statistics, building and training deep learning models, prediction and processing of output data
 # how to use: scripts
@@ -16,7 +17,7 @@ $from Main import *
 ## create a folder saving all the prediction dataset. Training dataset should be in the current work directory, or elsewhere and use an absolute address
 $preprocessing_for_multi_FASTA("../pred_dataset")
 $training_dataset_preprocess("MTtraningbinaryDatabase.csv")
-## start to build a model and prediction
+## start to build a model and prediction; can load a trained model to reuse it
 $my_model()
 $model_pred()
 ## an output file can be seen in the work directory. The file is a .csv file with three features of ‘index’, ‘probability’ and ‘sequence’.
