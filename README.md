@@ -6,6 +6,12 @@ A deep learning package for mining specific proteins from metaproteomes/metageno
 3. preparation of the platform: Anaconda, TensorFlow 2.0, Python 3.7, and all dependencies for deep learning
 4. preparation of the binary training dataset
 5. the trained models for MTs and HMT are also included and ready for reuse
+# the training dataset
+prepare the training dataset as specified in our publication.
+# the prediction dataset
+The model takes a proteome or many metaproteomes as inputs
+#the output
+The model outputs an excel file containing the sequences with their probability values. The results can be filtered by cutoff values.
 # the package
 the package contains all modules for parsing, merging proteome datasets, sequence statistics, building and training deep learning models, prediction and processing of output data
 # how to use: scripts
