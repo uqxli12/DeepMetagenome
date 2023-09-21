@@ -1,5 +1,6 @@
 # DeepMetaProteome
 A deep learning package for mining specific proteins from metaproteomes/metagenomes
+![image](https://github.com/uqxli12/DeepMetaProteome/blob/main/img/TOA.jpg)
 # How to use: Preparation
 1. download the package components
 2. the package to a desired work directory
