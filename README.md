@@ -17,7 +17,9 @@ The model outputs an excel file containing the sequences with their probability 
 the package contains all modules for parsing, merging proteome datasets, sequence statistics, building and training deep learning models, prediction and processing of output data
 # How to use: scripts
 ## in Jupyter Notebook, go to the DeepMetagenome directory
+```
 !cd ../DeepMetagenome
+```
 ## there are three variables subjected to configuration, MinLen or MaxLen, CutOffValue. New variables can also be added and modified in the modules. For MT, we use MaxLen = 200 and CutOffValue = 0.000001. The length selection is a necessary step in preparing training dataset, and this cutoff value is a result of the sequence statistics. The probability value is an arbitrary value, depending on the sequence features and purpose of subsequent study.
 ## call all the functions 
 $from Main import *
