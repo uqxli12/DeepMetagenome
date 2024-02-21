@@ -1,6 +1,7 @@
 # DeepMetaProteome
 A deep learning package for mining specific proteins from metaproteomes/metagenomes
 ![image](https://github.com/uqxli12/DeepMetaProteome/blob/main/img/TOA.jpg)
+
 ## Descriptions of folders and files under the DeepMetaProteome repository
 * "docs"
     * Includes training and test protein sequences for Metallothionein (MT).
@@ -14,16 +15,16 @@ A deep learning package for mining specific proteins from metaproteomes/metageno
     * For example, there are "keras_metadata.pb", "saved_model.pb", and two variables files for MT prediction.
     
 * "DeepModel"
-    * There are two deep model files: "Deep_Model.py" and "Deep_Model_ts_2.py".
+    * Two deep model files: "Deep_Model.py" and "Deep_Model_ts_2.py".
 
 * "Main"
-    * There are two main files: "Main.py" and "Main_2.py".
+    * Two main files: "Main.py" and "Main_2.py".
 
 * "Preprocessing"
-    * There are two Preprocessing files: "Preprocessing_for_Single_FASTA.py" and "Preprocessing_for_multiple_FASTA.py".
+    * Two Preprocessing files: "Preprocessing_for_Single_FASTA.py" and "Preprocessing_for_multiple_FASTA.py".
 
 * "HowToUse"
-    * There is a document "Suppl._file_1_How_to_use_DeepMetagenome.docx".
+    * A document "Supplementary_File_1_How_to_use.docx".
     * This is a simplified guide for using DeepMetagenome.
 
 * "__init__.py"
