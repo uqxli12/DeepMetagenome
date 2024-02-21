@@ -28,6 +28,8 @@ from sklearn.metrics import f1_score
 from sklearn.metrics import roc_curve, auc
 from sklearn.metrics import recall_score, precision_score, confusion_matrix
 import os
+import seaborn as sns
+from collections import Counter 
 #Define MaxLen or MinLen first
 
 MaxLen = 200
