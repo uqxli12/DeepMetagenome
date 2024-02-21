@@ -29,6 +29,8 @@ from sklearn.metrics import f1_score
 from sklearn.metrics import roc_curve, auc
 from sklearn.metrics import recall_score, precision_score, confusion_matrix
 import os
+import seaborn as sns
+from collections import Counter 
 #Define MaxLen or MinLen first
 #随机划分数据集
 def random(data, label, test_ratio=0.2, random_state=123):
