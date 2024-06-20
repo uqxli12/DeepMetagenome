@@ -1,8 +1,8 @@
-# DeepMetaProteome
+# DeepMetagenome
 A deep learning package for mining specific proteins from metaproteomes/metagenomes
 ![image](https://github.com/uqxli12/DeepMetaProteome/blob/main/img/TOA.jpg)
 
-## Descriptions of folders and files under the DeepMetaProteome repository
+## Descriptions of folders and files under the DeepMetagenome repository
 * "docs"
     * Includes training and test protein sequences for Metallothionein (MT).
     * For example, the fasta file of training and test sequences for Metallothionein is "training_data.npz" and "testing_data.npz",respectively.
@@ -73,7 +73,7 @@ $model_pred()
 >an output file can be seen in the work directory. The file is a .csv file with three features of ‘index’, ‘probability’ and ‘sequence’.
 
 ## License
-DeepMetaProteome
+DeepMetagenome
     Copyright (C) 2023 uqxli12
 
 ## Contacts
